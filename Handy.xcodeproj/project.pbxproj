@@ -8,20 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		12B1DBC5EA9560AE0043042F /* Pods_Handy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FB3BBDCCB8E57B6562F0AB /* Pods_Handy.framework */; };
+		27259B512183885F00AD2527 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B502183885F00AD2527 /* RootTabBarViewController.swift */; };
+		27259B522183885F00AD2527 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B502183885F00AD2527 /* RootTabBarViewController.swift */; };
+		27259B532183885F00AD2527 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B502183885F00AD2527 /* RootTabBarViewController.swift */; };
+		27259B5521838B5F00AD2527 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B5421838B5F00AD2527 /* HomePageViewController.swift */; };
+		27259B5621838B5F00AD2527 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B5421838B5F00AD2527 /* HomePageViewController.swift */; };
+		27259B5721838B5F00AD2527 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B5421838B5F00AD2527 /* HomePageViewController.swift */; };
+		27259B592183920800AD2527 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B582183920800AD2527 /* PostViewController.swift */; };
+		27259B5A2183920800AD2527 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B582183920800AD2527 /* PostViewController.swift */; };
+		27259B5B2183920800AD2527 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B582183920800AD2527 /* PostViewController.swift */; };
 		27AF1ACD216FCBE4009F83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */; };
-		27AF1ACF216FCBE5009F83A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* ViewController.swift */; };
+		27AF1ACF216FCBE5009F83A2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */; };
 		27AF1AD2216FCBE5009F83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD0216FCBE5009F83A2 /* Main.storyboard */; };
 		27AF1AD4216FCBEA009F83A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD3216FCBEA009F83A2 /* Assets.xcassets */; };
 		27AF1AD7216FCBEA009F83A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD5216FCBEA009F83A2 /* LaunchScreen.storyboard */; };
 		27AF1AE2216FCBEA009F83A2 /* HandyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1AE1216FCBEA009F83A2 /* HandyTests.swift */; };
 		27AF1AED216FCBEA009F83A2 /* HandyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1AEC216FCBEA009F83A2 /* HandyUITests.swift */; };
-		27AF1AFD216FD05A009F83A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* ViewController.swift */; };
+		27AF1AFD216FD05A009F83A2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */; };
 		27AF1AFE216FD05A009F83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */; };
 		27AF1B00216FD05A009F83A2 /* Pods_Handy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FB3BBDCCB8E57B6562F0AB /* Pods_Handy.framework */; };
 		27AF1B02216FD05A009F83A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD5216FCBEA009F83A2 /* LaunchScreen.storyboard */; };
 		27AF1B03216FD05A009F83A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD3216FCBEA009F83A2 /* Assets.xcassets */; };
 		27AF1B04216FD05A009F83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD0216FCBE5009F83A2 /* Main.storyboard */; };
-		27AF1B0E216FD4E4009F83A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* ViewController.swift */; };
+		27AF1B0E216FD4E4009F83A2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */; };
 		27AF1B0F216FD4E4009F83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */; };
 		27AF1B11216FD4E4009F83A2 /* Pods_Handy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FB3BBDCCB8E57B6562F0AB /* Pods_Handy.framework */; };
 		27AF1B13216FD4E4009F83A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD5216FCBEA009F83A2 /* LaunchScreen.storyboard */; };
@@ -47,9 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27259B502183885F00AD2527 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		27259B5421838B5F00AD2527 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		27259B582183920800AD2527 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		27AF1AC9216FCBE4009F83A2 /* Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27AF1ACE216FCBE5009F83A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		27AF1AD1216FCBE5009F83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27AF1AD3216FCBEA009F83A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27AF1AD6216FCBEA009F83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,7 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */,
-				27AF1ACE216FCBE5009F83A2 /* ViewController.swift */,
+				27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */,
+				27259B502183885F00AD2527 /* RootTabBarViewController.swift */,
+				27259B5421838B5F00AD2527 /* HomePageViewController.swift */,
+				27259B582183920800AD2527 /* PostViewController.swift */,
 				27AF1AD0216FCBE5009F83A2 /* Main.storyboard */,
 				27AF1AD3216FCBEA009F83A2 /* Assets.xcassets */,
 				27AF1AD5216FCBEA009F83A2 /* LaunchScreen.storyboard */,
@@ -495,8 +510,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AF1ACF216FCBE5009F83A2 /* ViewController.swift in Sources */,
+				27259B5521838B5F00AD2527 /* HomePageViewController.swift in Sources */,
+				27AF1ACF216FCBE5009F83A2 /* SettingViewController.swift in Sources */,
+				27259B512183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
 				27AF1ACD216FCBE4009F83A2 /* AppDelegate.swift in Sources */,
+				27259B592183920800AD2527 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,8 +538,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AF1AFD216FD05A009F83A2 /* ViewController.swift in Sources */,
+				27259B5621838B5F00AD2527 /* HomePageViewController.swift in Sources */,
+				27AF1AFD216FD05A009F83A2 /* SettingViewController.swift in Sources */,
+				27259B522183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
 				27AF1AFE216FD05A009F83A2 /* AppDelegate.swift in Sources */,
+				27259B5A2183920800AD2527 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,8 +550,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AF1B0E216FD4E4009F83A2 /* ViewController.swift in Sources */,
+				27259B5721838B5F00AD2527 /* HomePageViewController.swift in Sources */,
+				27AF1B0E216FD4E4009F83A2 /* SettingViewController.swift in Sources */,
+				27259B532183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
 				27AF1B0F216FD4E4009F83A2 /* AppDelegate.swift in Sources */,
+				27259B5B2183920800AD2527 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,7 +723,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -719,7 +743,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
