@@ -17,6 +17,12 @@
 		27259B592183920800AD2527 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B582183920800AD2527 /* PostViewController.swift */; };
 		27259B5A2183920800AD2527 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B582183920800AD2527 /* PostViewController.swift */; };
 		27259B5B2183920800AD2527 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27259B582183920800AD2527 /* PostViewController.swift */; };
+		275784A021878DC500B1BA1D /* EnterInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757849E21878DC500B1BA1D /* EnterInfoCell.swift */; };
+		275784A121878DC500B1BA1D /* EnterInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757849E21878DC500B1BA1D /* EnterInfoCell.swift */; };
+		275784A221878DC500B1BA1D /* EnterInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757849E21878DC500B1BA1D /* EnterInfoCell.swift */; };
+		275784A321878DC500B1BA1D /* EnterInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2757849F21878DC500B1BA1D /* EnterInfoCell.xib */; };
+		275784A421878DC500B1BA1D /* EnterInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2757849F21878DC500B1BA1D /* EnterInfoCell.xib */; };
+		275784A521878DC500B1BA1D /* EnterInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2757849F21878DC500B1BA1D /* EnterInfoCell.xib */; };
 		27AF1ACD216FCBE4009F83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */; };
 		27AF1ACF216FCBE5009F83A2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */; };
 		27AF1AD2216FCBE5009F83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD0216FCBE5009F83A2 /* Main.storyboard */; };
@@ -59,6 +65,8 @@
 		27259B502183885F00AD2527 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
 		27259B5421838B5F00AD2527 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		27259B582183920800AD2527 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		2757849E21878DC500B1BA1D /* EnterInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterInfoCell.swift; sourceTree = "<group>"; };
+		2757849F21878DC500B1BA1D /* EnterInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterInfoCell.xib; sourceTree = "<group>"; };
 		27AF1AC9216FCBE4009F83A2 /* Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +131,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2757849D218789E200B1BA1D /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				27259B5421838B5F00AD2527 /* HomePageViewController.swift */,
+				2757849E21878DC500B1BA1D /* EnterInfoCell.swift */,
+				2757849F21878DC500B1BA1D /* EnterInfoCell.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
 		27AF1AC0216FCBE4009F83A2 = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +173,7 @@
 				27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */,
 				27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */,
 				27259B502183885F00AD2527 /* RootTabBarViewController.swift */,
-				27259B5421838B5F00AD2527 /* HomePageViewController.swift */,
+				2757849D218789E200B1BA1D /* HomePage */,
 				27259B582183920800AD2527 /* PostViewController.swift */,
 				27AF1AD0216FCBE5009F83A2 /* Main.storyboard */,
 				27AF1AD3216FCBEA009F83A2 /* Assets.xcassets */,
@@ -346,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275784A321878DC500B1BA1D /* EnterInfoCell.xib in Resources */,
 				27AF1AD7216FCBEA009F83A2 /* LaunchScreen.storyboard in Resources */,
 				27AF1AD4216FCBEA009F83A2 /* Assets.xcassets in Resources */,
 				27AF1AD2216FCBE5009F83A2 /* Main.storyboard in Resources */,
@@ -370,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275784A421878DC500B1BA1D /* EnterInfoCell.xib in Resources */,
 				27AF1B02216FD05A009F83A2 /* LaunchScreen.storyboard in Resources */,
 				27AF1B03216FD05A009F83A2 /* Assets.xcassets in Resources */,
 				27AF1B04216FD05A009F83A2 /* Main.storyboard in Resources */,
@@ -380,6 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275784A521878DC500B1BA1D /* EnterInfoCell.xib in Resources */,
 				27AF1B13216FD4E4009F83A2 /* LaunchScreen.storyboard in Resources */,
 				27AF1B14216FD4E4009F83A2 /* Assets.xcassets in Resources */,
 				27AF1B15216FD4E4009F83A2 /* Main.storyboard in Resources */,
@@ -514,6 +535,7 @@
 				27AF1ACF216FCBE5009F83A2 /* SettingViewController.swift in Sources */,
 				27259B512183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
 				27AF1ACD216FCBE4009F83A2 /* AppDelegate.swift in Sources */,
+				275784A021878DC500B1BA1D /* EnterInfoCell.swift in Sources */,
 				27259B592183920800AD2527 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +564,7 @@
 				27AF1AFD216FD05A009F83A2 /* SettingViewController.swift in Sources */,
 				27259B522183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
 				27AF1AFE216FD05A009F83A2 /* AppDelegate.swift in Sources */,
+				275784A121878DC500B1BA1D /* EnterInfoCell.swift in Sources */,
 				27259B5A2183920800AD2527 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +577,7 @@
 				27AF1B0E216FD4E4009F83A2 /* SettingViewController.swift in Sources */,
 				27259B532183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
 				27AF1B0F216FD4E4009F83A2 /* AppDelegate.swift in Sources */,
+				275784A221878DC500B1BA1D /* EnterInfoCell.swift in Sources */,
 				27259B5B2183920800AD2527 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

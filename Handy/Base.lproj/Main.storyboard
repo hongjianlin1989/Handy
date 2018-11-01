@@ -83,14 +83,40 @@
                     <view key="view" contentMode="scaleToFill" id="bHt-bH-u6l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JsK-vj-ndl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5lc-Om-RSa">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9dv-xZ-YpG" id="L72-Vl-CFr"/>
+                                    <outlet property="delegate" destination="9dv-xZ-YpG" id="SlU-Qm-r5i"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="JsK-vj-ndl" secondAttribute="bottom" id="PnS-7e-aPv"/>
+                            <constraint firstItem="JsK-vj-ndl" firstAttribute="leading" secondItem="4oI-8S-VuO" secondAttribute="leading" id="TKd-ew-4g4"/>
+                            <constraint firstItem="JsK-vj-ndl" firstAttribute="top" secondItem="bHt-bH-u6l" secondAttribute="top" id="fA1-Ro-jP7"/>
+                            <constraint firstItem="JsK-vj-ndl" firstAttribute="trailing" secondItem="4oI-8S-VuO" secondAttribute="trailing" id="iBm-cH-P52"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4oI-8S-VuO"/>
                     </view>
                     <navigationItem key="navigationItem" id="0er-lO-671"/>
+                    <connections>
+                        <outlet property="collectionView" destination="JsK-vj-ndl" id="6aA-0F-AFn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cP9-bd-qgk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2518" y="-1446"/>
+            <point key="canvasLocation" x="-2519.1999999999998" y="-1446.0269865067467"/>
         </scene>
         <!--Root Tab Bar View Controller-->
         <scene sceneID="ts6-VB-vFA">

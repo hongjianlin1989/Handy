@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Handy
-//
-//  Created by hongjian lin on 10/11/18.
-//  Copyright © 2018 com.hongjian. All rights reserved.
-//
 
 import UIKit
 
