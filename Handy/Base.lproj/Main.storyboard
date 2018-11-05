@@ -79,7 +79,7 @@
         <!--Home Page View Controller-->
         <scene sceneID="b8P-BV-Ddf">
             <objects>
-                <viewController id="9dv-xZ-YpG" customClass="HomePageViewController" customModule="Handy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomePageViewController" id="9dv-xZ-YpG" customClass="HomePageViewController" customModule="Handy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bHt-bH-u6l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,6 +112,7 @@
                     <navigationItem key="navigationItem" id="0er-lO-671"/>
                     <connections>
                         <outlet property="collectionView" destination="JsK-vj-ndl" id="6aA-0F-AFn"/>
+                        <segue destination="Rhg-Ld-lWc" kind="show" id="OGz-kd-YOP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cP9-bd-qgk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -188,6 +189,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ewy-rk-C9F" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2519" y="-11"/>
+        </scene>
+        <!--Job List View Controller-->
+        <scene sceneID="68J-1B-hcP">
+            <objects>
+                <viewController storyboardIdentifier="JobListViewController" id="Rhg-Ld-lWc" customClass="JobListViewController" customModule="Handy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="icE-0w-5rA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Aev-mp-1Ii">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nyc-df-T5z">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Rhg-Ld-lWc" id="1ZI-HO-bZg"/>
+                                    <outlet property="delegate" destination="Rhg-Ld-lWc" id="Jd8-u4-ees"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Aev-mp-1Ii" firstAttribute="leading" secondItem="Fwy-te-wZ1" secondAttribute="leading" id="H0B-o8-krh"/>
+                            <constraint firstItem="Aev-mp-1Ii" firstAttribute="trailing" secondItem="Fwy-te-wZ1" secondAttribute="trailing" id="YdP-Wh-00a"/>
+                            <constraint firstItem="Aev-mp-1Ii" firstAttribute="top" secondItem="icE-0w-5rA" secondAttribute="top" id="chz-Yi-kFW"/>
+                            <constraint firstAttribute="bottom" secondItem="Aev-mp-1Ii" secondAttribute="bottom" id="vDf-Xw-LBN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fwy-te-wZ1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QfU-mf-h5S"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Aev-mp-1Ii" id="iYa-nN-vRd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhB-zf-LkX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1772" y="-1446"/>
         </scene>
     </scenes>
 </document>

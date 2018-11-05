@@ -23,6 +23,24 @@
 		275784A321878DC500B1BA1D /* EnterInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2757849F21878DC500B1BA1D /* EnterInfoCell.xib */; };
 		275784A421878DC500B1BA1D /* EnterInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2757849F21878DC500B1BA1D /* EnterInfoCell.xib */; };
 		275784A521878DC500B1BA1D /* EnterInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2757849F21878DC500B1BA1D /* EnterInfoCell.xib */; };
+		27AC16432190BDAE00CD7462 /* SingleButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16412190BDAE00CD7462 /* SingleButtonCell.swift */; };
+		27AC16442190BDAE00CD7462 /* SingleButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16412190BDAE00CD7462 /* SingleButtonCell.swift */; };
+		27AC16452190BDAE00CD7462 /* SingleButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16412190BDAE00CD7462 /* SingleButtonCell.swift */; };
+		27AC16462190BDAE00CD7462 /* SingleButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AC16422190BDAE00CD7462 /* SingleButtonCell.xib */; };
+		27AC16472190BDAE00CD7462 /* SingleButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AC16422190BDAE00CD7462 /* SingleButtonCell.xib */; };
+		27AC16482190BDAE00CD7462 /* SingleButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AC16422190BDAE00CD7462 /* SingleButtonCell.xib */; };
+		27AC164A2190BED200CD7462 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16492190BED200CD7462 /* HomePageViewModel.swift */; };
+		27AC164B2190BED200CD7462 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16492190BED200CD7462 /* HomePageViewModel.swift */; };
+		27AC164C2190BED200CD7462 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16492190BED200CD7462 /* HomePageViewModel.swift */; };
+		27AC164E2190C8F200CD7462 /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC164D2190C8F200CD7462 /* JobListViewController.swift */; };
+		27AC164F2190C8F200CD7462 /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC164D2190C8F200CD7462 /* JobListViewController.swift */; };
+		27AC16502190C8F200CD7462 /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC164D2190C8F200CD7462 /* JobListViewController.swift */; };
+		27AC16522190D2DD00CD7462 /* JobListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16512190D2DD00CD7462 /* JobListViewModel.swift */; };
+		27AC16532190D2DD00CD7462 /* JobListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16512190D2DD00CD7462 /* JobListViewModel.swift */; };
+		27AC16542190D2DD00CD7462 /* JobListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16512190D2DD00CD7462 /* JobListViewModel.swift */; };
+		27AC16562190D3E500CD7462 /* StoryBoardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16552190D3E500CD7462 /* StoryBoardFactory.swift */; };
+		27AC16572190D3E500CD7462 /* StoryBoardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16552190D3E500CD7462 /* StoryBoardFactory.swift */; };
+		27AC16582190D3E500CD7462 /* StoryBoardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AC16552190D3E500CD7462 /* StoryBoardFactory.swift */; };
 		27AF1ACD216FCBE4009F83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */; };
 		27AF1ACF216FCBE5009F83A2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */; };
 		27AF1AD2216FCBE5009F83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD0216FCBE5009F83A2 /* Main.storyboard */; };
@@ -67,6 +85,12 @@
 		27259B582183920800AD2527 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		2757849E21878DC500B1BA1D /* EnterInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterInfoCell.swift; sourceTree = "<group>"; };
 		2757849F21878DC500B1BA1D /* EnterInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterInfoCell.xib; sourceTree = "<group>"; };
+		27AC16412190BDAE00CD7462 /* SingleButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleButtonCell.swift; sourceTree = "<group>"; };
+		27AC16422190BDAE00CD7462 /* SingleButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleButtonCell.xib; sourceTree = "<group>"; };
+		27AC16492190BED200CD7462 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		27AC164D2190C8F200CD7462 /* JobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListViewController.swift; sourceTree = "<group>"; };
+		27AC16512190D2DD00CD7462 /* JobListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListViewModel.swift; sourceTree = "<group>"; };
+		27AC16552190D3E500CD7462 /* StoryBoardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardFactory.swift; sourceTree = "<group>"; };
 		27AF1AC9216FCBE4009F83A2 /* Handy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +159,11 @@
 			isa = PBXGroup;
 			children = (
 				27259B5421838B5F00AD2527 /* HomePageViewController.swift */,
+				27AC16492190BED200CD7462 /* HomePageViewModel.swift */,
+				27AC164D2190C8F200CD7462 /* JobListViewController.swift */,
+				27AC16512190D2DD00CD7462 /* JobListViewModel.swift */,
+				27AC16412190BDAE00CD7462 /* SingleButtonCell.swift */,
+				27AC16422190BDAE00CD7462 /* SingleButtonCell.xib */,
 				2757849E21878DC500B1BA1D /* EnterInfoCell.swift */,
 				2757849F21878DC500B1BA1D /* EnterInfoCell.xib */,
 			);
@@ -173,6 +202,7 @@
 				27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */,
 				27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */,
 				27259B502183885F00AD2527 /* RootTabBarViewController.swift */,
+				27AC16552190D3E500CD7462 /* StoryBoardFactory.swift */,
 				2757849D218789E200B1BA1D /* HomePage */,
 				27259B582183920800AD2527 /* PostViewController.swift */,
 				27AF1AD0216FCBE5009F83A2 /* Main.storyboard */,
@@ -368,6 +398,7 @@
 				27AF1AD7216FCBEA009F83A2 /* LaunchScreen.storyboard in Resources */,
 				27AF1AD4216FCBEA009F83A2 /* Assets.xcassets in Resources */,
 				27AF1AD2216FCBE5009F83A2 /* Main.storyboard in Resources */,
+				27AC16462190BDAE00CD7462 /* SingleButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +424,7 @@
 				27AF1B02216FD05A009F83A2 /* LaunchScreen.storyboard in Resources */,
 				27AF1B03216FD05A009F83A2 /* Assets.xcassets in Resources */,
 				27AF1B04216FD05A009F83A2 /* Main.storyboard in Resources */,
+				27AC16472190BDAE00CD7462 /* SingleButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +436,7 @@
 				27AF1B13216FD4E4009F83A2 /* LaunchScreen.storyboard in Resources */,
 				27AF1B14216FD4E4009F83A2 /* Assets.xcassets in Resources */,
 				27AF1B15216FD4E4009F83A2 /* Main.storyboard in Resources */,
+				27AC16482190BDAE00CD7462 /* SingleButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,10 +564,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AC16522190D2DD00CD7462 /* JobListViewModel.swift in Sources */,
+				27AC16432190BDAE00CD7462 /* SingleButtonCell.swift in Sources */,
 				27259B5521838B5F00AD2527 /* HomePageViewController.swift in Sources */,
 				27AF1ACF216FCBE5009F83A2 /* SettingViewController.swift in Sources */,
 				27259B512183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
+				27AC164A2190BED200CD7462 /* HomePageViewModel.swift in Sources */,
 				27AF1ACD216FCBE4009F83A2 /* AppDelegate.swift in Sources */,
+				27AC164E2190C8F200CD7462 /* JobListViewController.swift in Sources */,
+				27AC16562190D3E500CD7462 /* StoryBoardFactory.swift in Sources */,
 				275784A021878DC500B1BA1D /* EnterInfoCell.swift in Sources */,
 				27259B592183920800AD2527 /* PostViewController.swift in Sources */,
 			);
@@ -560,10 +598,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AC16532190D2DD00CD7462 /* JobListViewModel.swift in Sources */,
+				27AC16442190BDAE00CD7462 /* SingleButtonCell.swift in Sources */,
 				27259B5621838B5F00AD2527 /* HomePageViewController.swift in Sources */,
 				27AF1AFD216FD05A009F83A2 /* SettingViewController.swift in Sources */,
 				27259B522183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
+				27AC164B2190BED200CD7462 /* HomePageViewModel.swift in Sources */,
 				27AF1AFE216FD05A009F83A2 /* AppDelegate.swift in Sources */,
+				27AC164F2190C8F200CD7462 /* JobListViewController.swift in Sources */,
+				27AC16572190D3E500CD7462 /* StoryBoardFactory.swift in Sources */,
 				275784A121878DC500B1BA1D /* EnterInfoCell.swift in Sources */,
 				27259B5A2183920800AD2527 /* PostViewController.swift in Sources */,
 			);
@@ -573,10 +616,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AC16542190D2DD00CD7462 /* JobListViewModel.swift in Sources */,
+				27AC16452190BDAE00CD7462 /* SingleButtonCell.swift in Sources */,
 				27259B5721838B5F00AD2527 /* HomePageViewController.swift in Sources */,
 				27AF1B0E216FD4E4009F83A2 /* SettingViewController.swift in Sources */,
 				27259B532183885F00AD2527 /* RootTabBarViewController.swift in Sources */,
+				27AC164C2190BED200CD7462 /* HomePageViewModel.swift in Sources */,
 				27AF1B0F216FD4E4009F83A2 /* AppDelegate.swift in Sources */,
+				27AC16502190C8F200CD7462 /* JobListViewController.swift in Sources */,
+				27AC16582190D3E500CD7462 /* StoryBoardFactory.swift in Sources */,
 				275784A221878DC500B1BA1D /* EnterInfoCell.swift in Sources */,
 				27259B5B2183920800AD2527 /* PostViewController.swift in Sources */,
 			);
