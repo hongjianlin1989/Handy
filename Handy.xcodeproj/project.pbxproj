@@ -50,16 +50,15 @@
 		27AF1AED216FCBEA009F83A2 /* HandyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1AEC216FCBEA009F83A2 /* HandyUITests.swift */; };
 		27AF1AFD216FD05A009F83A2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */; };
 		27AF1AFE216FD05A009F83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */; };
-		27AF1B00216FD05A009F83A2 /* Pods_Handy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FB3BBDCCB8E57B6562F0AB /* Pods_Handy.framework */; };
 		27AF1B02216FD05A009F83A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD5216FCBEA009F83A2 /* LaunchScreen.storyboard */; };
 		27AF1B03216FD05A009F83A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD3216FCBEA009F83A2 /* Assets.xcassets */; };
 		27AF1B04216FD05A009F83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD0216FCBE5009F83A2 /* Main.storyboard */; };
 		27AF1B0E216FD4E4009F83A2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACE216FCBE5009F83A2 /* SettingViewController.swift */; };
 		27AF1B0F216FD4E4009F83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF1ACC216FCBE4009F83A2 /* AppDelegate.swift */; };
-		27AF1B11216FD4E4009F83A2 /* Pods_Handy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FB3BBDCCB8E57B6562F0AB /* Pods_Handy.framework */; };
 		27AF1B13216FD4E4009F83A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD5216FCBEA009F83A2 /* LaunchScreen.storyboard */; };
 		27AF1B14216FD4E4009F83A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD3216FCBEA009F83A2 /* Assets.xcassets */; };
 		27AF1B15216FD4E4009F83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AF1AD0216FCBE5009F83A2 /* Main.storyboard */; };
+		71D4CBA2E3B9CF29EEE76642 /* Pods_Handy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FB3BBDCCB8E57B6562F0AB /* Pods_Handy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,9 +107,9 @@
 		27AF1B0A216FD05B009F83A2 /* Handy CI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Handy CI-Info.plist"; path = "/Users/hongjianlin/Desktop/Handy/Handy/Handy CI-Info.plist"; sourceTree = "<absolute>"; };
 		27AF1B1A216FD4E4009F83A2 /* Handy Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handy Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AF1B1B216FD4E5009F83A2 /* Handy Staging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Handy Staging-Info.plist"; path = "/Users/hongjianlin/Desktop/Handy/Handy/Handy Staging-Info.plist"; sourceTree = "<absolute>"; };
-		291E772EDF38F895B335A171 /* Pods-Handy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Handy/Pods-Handy.debug.xcconfig"; sourceTree = "<group>"; };
-		BF2035CFFA606E28DAC65177 /* Pods-Handy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Handy/Pods-Handy.release.xcconfig"; sourceTree = "<group>"; };
+		56224CAC9AA67BFA3132FC86 /* Pods-Handy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Handy/Pods-Handy.release.xcconfig"; sourceTree = "<group>"; };
 		C4FB3BBDCCB8E57B6562F0AB /* Pods_Handy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Handy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1356FFDE84309AA869110A7 /* Pods-Handy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Handy/Pods-Handy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B1DBC5EA9560AE0043042F /* Pods_Handy.framework in Frameworks */,
+				71D4CBA2E3B9CF29EEE76642 /* Pods_Handy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +140,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AF1B00216FD05A009F83A2 /* Pods_Handy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +147,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AF1B11216FD4E4009F83A2 /* Pods_Handy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,8 +232,8 @@
 		3205DAD907893182CF7D2956 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				291E772EDF38F895B335A171 /* Pods-Handy.debug.xcconfig */,
-				BF2035CFFA606E28DAC65177 /* Pods-Handy.release.xcconfig */,
+				F1356FFDE84309AA869110A7 /* Pods-Handy.debug.xcconfig */,
+				56224CAC9AA67BFA3132FC86 /* Pods-Handy.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -310,11 +308,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27AF1B06216FD05A009F83A2 /* Build configuration list for PBXNativeTarget "Handy CI" */;
 			buildPhases = (
-				27AF1AFB216FD05A009F83A2 /* [CP] Check Pods Manifest.lock */,
 				27AF1AFC216FD05A009F83A2 /* Sources */,
 				27AF1AFF216FD05A009F83A2 /* Frameworks */,
 				27AF1B01216FD05A009F83A2 /* Resources */,
-				27AF1B05216FD05A009F83A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,11 +325,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27AF1B17216FD4E4009F83A2 /* Build configuration list for PBXNativeTarget "Handy Staging" */;
 			buildPhases = (
-				27AF1B0C216FD4E4009F83A2 /* [CP] Check Pods Manifest.lock */,
 				27AF1B0D216FD4E4009F83A2 /* Sources */,
 				27AF1B10216FD4E4009F83A2 /* Frameworks */,
 				27AF1B12216FD4E4009F83A2 /* Resources */,
-				27AF1B16216FD4E4009F83A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -443,82 +437,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27AF1AFB216FD05A009F83A2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Handy-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27AF1B05216FD05A009F83A2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Handy/Pods-Handy-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Handy/Pods-Handy-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27AF1B0C216FD4E4009F83A2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Handy-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		27AF1B16216FD4E4009F83A2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Handy/Pods-Handy-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Handy/Pods-Handy-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BDDEE834E719BD70278C5815 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,11 +446,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Handy/Pods-Handy-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -781,16 +701,13 @@
 		};
 		27AF1AF2216FCBEA009F83A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291E772EDF38F895B335A171 /* Pods-Handy.debug.xcconfig */;
+			baseConfigurationReference = F1356FFDE84309AA869110A7 /* Pods-Handy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRL84QEC3S;
 				INFOPLIST_FILE = Handy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDISTRIBUTION";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -801,16 +718,13 @@
 		};
 		27AF1AF3216FCBEA009F83A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2035CFFA606E28DAC65177 /* Pods-Handy.release.xcconfig */;
+			baseConfigurationReference = 56224CAC9AA67BFA3132FC86 /* Pods-Handy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRL84QEC3S;
 				INFOPLIST_FILE = Handy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDISTRIBUTION";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -826,11 +740,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HandyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.HandyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -846,11 +756,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HandyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.HandyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -865,11 +771,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HandyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.HandyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -884,11 +786,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HandyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.HandyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -899,16 +797,12 @@
 		};
 		27AF1B07216FD05A009F83A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291E772EDF38F895B335A171 /* Pods-Handy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRL84QEC3S;
 				INFOPLIST_FILE = "Handy CI-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEVELOPMENT\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -919,16 +813,12 @@
 		};
 		27AF1B08216FD05A009F83A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2035CFFA606E28DAC65177 /* Pods-Handy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRL84QEC3S;
 				INFOPLIST_FILE = "Handy CI-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEVELOPMENT\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -939,16 +829,12 @@
 		};
 		27AF1B18216FD4E4009F83A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 291E772EDF38F895B335A171 /* Pods-Handy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRL84QEC3S;
 				INFOPLIST_FILE = "Handy Staging-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEVELOPMENT\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -959,16 +845,12 @@
 		};
 		27AF1B19216FD4E4009F83A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2035CFFA606E28DAC65177 /* Pods-Handy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FRL84QEC3S;
 				INFOPLIST_FILE = "Handy Staging-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEVELOPMENT\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hongjian.project.Handy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
